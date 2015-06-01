@@ -1,0 +1,99 @@
+body{
+	background:#555;
+}
+
+#wrap{
+	width:960px;
+	min-height:900px;
+	padding:20px;
+	margin:20px auto;
+	background:#f5f3f3;
+}
+
+header{
+	width:100%;
+	height:200px;
+	background:#ccc;
+}
+
+nav{
+	width:100%;
+	height:60px;
+	background:#555;
+	margin:10px 0;
+	line-height:60px;
+}
+
+nav ul{
+	list-style:none;
+}
+
+nav ul li{
+	display:inline;
+	padding:10px;
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:#fff;
+}
+
+#tweet_wrap{
+	padding:0 0 20px 0;
+}
+
+#tweet_wrap:before,
+#tweet_wrap:after {
+    content: " "; 
+    display: table;
+}
+
+#tweet_wrap:after {
+    clear: both;
+}
+
+.tweet{
+	min-height:160px;
+	width:430px;
+	background:#ccc;
+	padding:10px;
+	margin:0 13px 5px 13px;
+	border:solid 1px #bbb;
+	float:left;
+}
+
+em{
+	font-weight:bold;
+	font-size:12px;
+}
+
+em:before{
+	content:"- ";
+}
+
+.profile_pic{
+	width:50px;
+	height:50px;
+	border:solid 5px #fff;
+	float:left;
+}
+
+.tweet h2{
+	float:left;
+	font-size:24px;
+	margin:20px 0 0 10px;
+	color:#999;
+}
+
+.tweet_text{
+	clear:both;
+	padding:20px 0 0 0;
+}
+
+footer{
+	width:100%;
+	height:40px;
+	background:#555;
+	clear:both;
+	margin:20px 0 0 0;
+}
